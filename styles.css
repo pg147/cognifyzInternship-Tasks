@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 241, 241);
+}
+#nav-bar {
+    height: 75px;
+    background-color: #E0F6E5;
+    box-sizing: border-box;
+    padding: 24px 0px 24px 0px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#brand {
+    margin : 0px 175px 0px 60px;
+    font-size: 17pt;
+    font-weight: bolder;
+}
+.brand-nav-item {
+    font-family: 'Montserrat',sans-serif;
+    margin-right: 34px;
+}
+.brand-nav-item a {
+    text-decoration: none;
+    /* color: #91E3A9; */
+    color: #74B687;
+}
+.nav-items {
+    margin-top: 0;
+    display: flex;
+    position: absolute;
+    right: 10px;
+}
+.nav-item {
+    font-family: 'Montserrat',sans-serif;
+    list-style-type: none;
+    font-size: 14pt;
+    font-weight: 600;
+    margin-right: 34px;
+}
+.nav-item a {
+    /* color: #91E3A9; */
+    color: #74B687;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item a:hover {
+    color: #91E3A9;
+}
+.content {
+    display: flex;
+    height: 700px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-right: auto;
+    margin-left: auto;
+}
+#content-asset {
+    margin-top: 75px;
+    height: 500px;
+    width: 500px;    
+}
+.desc-cont {
+    height: 380px;
+    width: 400px;
+    background-color: #E0F6E5;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-family: 'Montserrat',sans-serif;
+    color: #74B687;
+    padding: 34px;
+}
+.desc-cont h2 {
+    margin-top: 0;
+}
+.desc-cont input {
+    outline: none;
+    border: 2px solid #74B687;
+    height: 40px;
+    width: 392px;
+    color: #74B687;
+    font-family: 'Montserrat',sans-serif;
+}
+.desc-cont button {
+    height: 45px;
+    width: 400px;
+    background-color: #74B687;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    color: #E0F6E5;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.desc-cont button:hover {
+    cursor: pointer;
+    background-color: #91E3A9;
+}
+.desc-cont input::placeholder {
+    padding: 14px;
+    font-family: 'Montserrat',sans-serif;
+    color: #74B687;
+    font-size: 11pt;
+    box-sizing: border-box;
+}
+.mail {
+    margin-top: 15px;
+}
+.pw {
+    margin-top: 15px;
+}
+
+.desc-cont input:focus {
+    caret-color: #74B687;
+    caret-shape: underscore;
+    font-family: 'Montserrat',sans-serif;
+    color: #74B687;
+}
