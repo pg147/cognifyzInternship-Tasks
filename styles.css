@@ -112,7 +112,6 @@ body {
 .pw {
     margin-top: 15px;
 }
-
 .desc-cont input:focus {
     caret-color: #74B687;
     caret-shape: underscore;
